@@ -67,8 +67,11 @@ if [ ! -e cernlib ]; then
     exit 1
   fi
 
-  # Get Luke's CERNLIB
-  git clone https://github.com/luketpickering/cernlibgcc5-.git cernlib
+  ## Get Luke's CERNLIB
+  #git clone https://github.com/luketpickering/cernlibgcc5-.git cernlib
+
+  # Get Afro's CERNLIB
+  git clone https://github.com/afropapp13/cernlibgcc5-.git cernlib
 
   cd cernlib
   # Build IMake and/or makedepend
